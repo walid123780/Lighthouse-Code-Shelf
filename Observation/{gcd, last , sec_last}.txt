@@ -1,0 +1,3 @@
+if we want to make ,  gcd(all(v)) == 1 
+		
+              gcd(gcd(all(v) , last index),second_last_index)
