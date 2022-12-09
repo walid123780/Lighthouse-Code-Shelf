@@ -1,0 +1,11 @@
+When I suppose to update x (greadily) more than once , than we calculate the answer for it greedily and remember it.In future , we will no longer check from 0 , but with the previous answer.
+
+
+            j = mp1[k];
+            for(ll i = j ; ; i+=k)
+            {
+                if(// do something)
+                {
+                    mp1[k] = i;
+                }
+            }
