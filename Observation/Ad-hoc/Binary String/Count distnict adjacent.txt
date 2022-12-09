@@ -1,0 +1,21 @@
+if you select an arbitary index i , and all value oppsite from i to n . 
+than you want make string non-decresing in minimum operation.
+
+my claim ,  just count distinct adjcent .
+
+because,
+
+	to make string non - decresing in minimum operation you should operation which s[i] == '1'  from (i <= n-1)
+	
+	intially s = 101;
+	than , 
+		101
+		i = 1 ~> 101 ---> 010 , I do a operation in i = 1 , s[i+1] == 1 and s[i] = 0 . (before opearation s[2] == 0 , after s[2] == 1)
+		i = 2 ~> 010 ---> 101 , than,I do a operation in i = 2 , s[i+1] == 1 ans s[i] = 0 .(now, we must operation s[2] now beacase s[2] hold 1)
+	
+   
+	so , Another word , just count distinct adjcent;
+
+
+solve : https://codeforces.com/contest/1732/problem/B
+
