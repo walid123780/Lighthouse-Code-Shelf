@@ -1,1 +1,1 @@
-Substruction Of All positive Integer in set (include Substruction value into set) == gcd of all(v) positive integer
+min value (Substruction Of All positive Integer in set (include Substruction value into set))== gcd of all(v) positive integer
