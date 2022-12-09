@@ -1,3 +1,0 @@
-
-__gcd(a , b) == y;
-if gcd of two number a & b equal y than gcd of gcd(a , y) and gcd(b , y) also y.
