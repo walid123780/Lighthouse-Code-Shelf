@@ -1,0 +1,8 @@
+If have to find the number of common divisors of all elements in the array.
+	than,
+		gcd = __gcd(all(v[i]);
+	And Find,
+		Divisors of gcd .
+
+
+https://codeforces.com/problemset/problem/1203/C
